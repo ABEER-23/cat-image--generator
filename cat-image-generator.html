@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>  
+    <title>Cat Image Generator</title> <!-- titel of page--> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="cat-image-generator.css" rel="stylesheet" type="text/css" >
+    </head>
+	
+	
+<body>
+	
+	
+    <div class="wrapper">
+        <div class="navbar" id="main-navbar">
+            <div class="navbar-inner" id="navbar-inner">
+                <p class="title-of-page" id="title-of-page">Cat Image Generator</p>
+            </div>
+        </div>
+        <div class="mainbody" id="mainbody">
+            <div class="col-of-information">
+                <div class="row-title">
+                    <div class="row-title-inner">INFORMATION OF CAT</div>
+                </div>
+                <div class="name-row">
+                    <div class="header-row">Name</div>
+                    <div class="information-row">
+                        <p id="name"></p>
+                    </div>
+                </div>
+                <div class="origin-row">
+                    <div class="header-row">Origin</div>
+                    <div class="information-row">
+                        <p id="origin"></p>
+                    </div>
+                </div>
+                <div class="description-row">
+                    <div class="header-row">Description</div>
+                    <div class="information-row">
+                        <p id="description"></p>
+                    </div>
+                </div>
+                <div class="friendly-row">
+                    <div class="header-row">Friendly</div>
+                    <div class="information-row">
+                        <p id="child-friendly"></p>
+                        <p id="dog-friendly"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-of-button-img">
+                <div class="button-row">
+                    <button type="button" id="button-to-update" class="button-to-update" onclick="deletePastInfo()">look for another cat</button>
+                </div>
+                <div class="img-row" id="col2row2">
+					<div id="clickButton" class="click-button">
+						<p class="click-button-inner">Click Button To Start</p>
+					</div>
+                    <div id="loader"></div>
+                   <div id="img-of-cat" class="img-of-cat">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="cat-image-generator.js"></script>
+    </body>
+</html>
